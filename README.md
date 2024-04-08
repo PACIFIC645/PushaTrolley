@@ -1,69 +1,59 @@
-<<<<<<< HEAD
-TrolleyPusha Description: TrolleyPusha is the premier online storefront for cutting-edge African streetwear, set to evolve into a comprehensive e-commerce platform featuring a multitude of local brands within our ecosystem. Our mission is to consolidate our current target client base while achieving growth and expansion targets, eventually co-opting more brands from SADEC and beyond. TrolleyPusha stands at the crossroads of fashion and commerce, embodying the vibrant spirit and diversity of African design and entrepreneurship.
+# TrolleyPusha
 
-Table of Contents Installation Usage Screenshots Contributing License Installation To install TrolleyPusha locally, follow these steps:
+## Description
 
-Clone the repository to your local machine: git clone https://github.com/PACIFIC645/PushaTrolley.git Since TrolleyPusha is primarily a web project, ensure you have a modern web browser installed to view the project.
+TrolleyPusha is the premier online storefront for cutting-edge African streetwear, designed to evolve into a comprehensive e-commerce platform. It features a multitude of local brands within our ecosystem, aiming to consolidate our current target client base while achieving growth and expansion targets, extending to more brands from SADEC and beyond. TrolleyPusha stands at the crossroads of fashion and commerce, embodying the vibrant spirit and diversity of African design and entrepreneurship.
 
-Open the project directory and locate the index.html file. Open this file in your web browser to view the project locally.
+## Table of Contents
 
-Usage After installation, you can use TrolleyPusha by navigating through the web interface:
-=======
-TrolleyPusha
-Description:
-TrolleyPusha is the premier online storefront for cutting-edge African streetwear, set to evolve into a comprehensive e-commerce platform featuring a multitude of local brands within our ecosystem. 
-Our mission is to consolidate our current target client base while achieving growth and expansion targets, eventually co-opting more brands from SADEC and beyond. 
-TrolleyPusha stands at the crossroads of fashion and commerce, embodying the vibrant spirit and diversity of African design and entrepreneurship.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Table of Contents
-Installation
-Usage
-Screenshots
-Contributing
-License
-Installation
+## Installation
+
 To install TrolleyPusha locally, follow these steps:
 
-Clone the repository to your local machine:
-git clone https://github.com/PACIFIC645/PushaTrolley.git
-Since TrolleyPusha is primarily a web project, ensure you have a modern web browser installed to view the project.
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/PACIFIC645/PushaTrolley.git
+   ```
+2. Since TrolleyPusha is primarily a web project, ensure you have a modern web browser installed to view the project.
+3. Open the project directory and locate the `index.html` file. Open this file in your web browser to view the project locally.
 
-Open the project directory and locate the index.html file. Open this file in your web browser to view the project locally.
+## Usage
 
-Usage
 After installation, you can use TrolleyPusha by navigating through the web interface:
->>>>>>> master
 
-Exploring Products: Browse the selection of African streetwear, including hoodies, sweaters, T-shirts, and bomber jackets, each featuring unique designs that reflect the vibrant cultures of Africa.
+- **Exploring Products**: Browse the selection of African streetwear, including hoodies, sweaters, T-shirts, and bomber jackets, each featuring unique designs that reflect the vibrant cultures of Africa.
+- **Purchasing Products**: Click the "Buy" button on any product card to initiate the purchase process.
+- **Subscription**: Subscribe to TrolleyPusha updates by entering your name and email in the footer form and clicking the "Subscribe" button.
 
-Purchasing Products: Click the "Buy" button on any product card to initiate the purchase process. (Note: As this is a project showcase, the buy functionality may be simulated.)
+## Screenshots
 
-Subscription: Subscribe to TrolleyPusha updates by entering your name and email in the footer form and clicking the "Subscribe" button.
-
-<<<<<<< HEAD
-Screenshots Below are screenshots demonstrating the TrolleyPusha interface and some of its key features:
-
-Homepage View: https://i.imgur.com/khqyNI8.jpeg Homepage Product Selection: https://i.imgur.com/RfURiGW.jpeg Inspirational Quote: ![Inspirational Quote](https://i.imgur.com/lxfw9fb.jpeg) 
-
-Contributing: We welcome contributions to the TrolleyPusha project. Please reach out via GitHub issues if you have suggestions, feature requests, or bug reports.
-
-TrolleyPusha is made available under the [MIT License](LICENSE). See the LICENSE file for more details.
-
-This template is designed to be comprehensive and clear, providing a thorough overview of your project in a manner that's both informative and engaging for potential users and contributors. Adjust the sections as necessary to fit your project's specifics, such as adding or refining details in the installation or usage sections, or updating the links to screenshots based on actual views of your project.
-
-=======
-Screenshots
 Below are screenshots demonstrating the TrolleyPusha interface and some of its key features:
 
-Homepage View: Homepage
-Product Selection: Product Selection
-Inspirational Quote: Inspirational Quote
-Contributing
+- **Homepage View**: ![Contact View](https://imgur.com/nRCUNXN.jpg)
+- **Shoppers Section**: ![Shoppers Section](https://imgur.com/TSB4hJh.jpg)
+
+## Contributing
+
 We welcome contributions to the TrolleyPusha project. Please reach out via GitHub issues if you have suggestions, feature requests, or bug reports.
 
-License
+## License
+
 TrolleyPusha is made available under the MIT License. See the LICENSE file for more details.
 
-This template is designed to be comprehensive and clear, providing a thorough overview of your project in a manner that's both informative and engaging for potential users and contributors. 
-Adjust the sections as necessary to fit your project's specifics, such as adding or refining details in the installation or usage sections, or updating the links to screenshots based on actual views of your project.
->>>>>>> master
+## Contact
+
+For further queries or to follow our work, you can reach us at:
+
+- **Email**: [stqpictures@gmail.com](mailto:stqpictures@gmail.com)
+- **LinkedIn**: [My LinkedIn](https://www.linkedin.com/in/mafekefekeng)
+- **Instagram**: [TrolleyPusha E-commerce](https://www.instagram.com/trolleypusha_ecommerce)
+- **Facebook**: [TrolleyPusha Wear](https://www.facebook.com/trolleypushawear)
+- **GitHub**: [Pacific645](https://github.com/PACIFIC645)
+
