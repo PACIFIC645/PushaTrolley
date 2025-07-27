@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS for styling and layout -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>TrolleyPusha - Premiere African Street Wear Store</title>
+    <style>
+        body {
+            background: url('https://i.imgur.com/lxfw9fb.jpeg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        /* Overlay to enhance text visibility against the background image */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+
+        /* Ensures content is visible above the overlay */
+        .content {
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Card hover effect */
+        .product:hover img {
+            transform: scale(1.1);
+            transition: transform 0.5s ease;
+        }
+
+        /* Flex layout for cards */
+        .card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        /* Style adjustments for card images */
+        .card-img-top {
+            max-height: 200px;
+            object-fit: cover;
+        }
+
+        /* Flex layout for card body */
+        .card-body {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Centered text block for additional information */
+        .about {
+            margin: 20px 0;
+            padding: 20px;
+            border: 3px solid #000;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* Styling for the inspirational quote */
+        .inspirational-quote {
+            font-size: 1.2em;
+            font-style: italic;
+            margin: 20px auto;
+            max-width: 80%;
+            line-height: 1.6;
+            color: rgb(175, 20, 20);
+            text-shadow: 2px 2px 2px #0b0101;
+            font-weight: bold;
+            border: 1px solid #ccc;
+            padding: 25px;
+        }
+
+        /* Footer form alignment */
+        .footer-form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        /* Footer logo adjustments */
+        .footer-form img {
+            width: 50px;
+            margin-right: 15px;
+        }
+
+        /* Caption background styling */
+        .caption-bg {
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Bold styling for price */
+        .price {
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        /* Welcome message styling with emphasis */
+        .welcome-message {
+            color: #fff;
+            text-shadow: 1px 1px 2px #000;
+            font-size: 2em; /* Increased font size */
+            animation: pulse 5s infinite; /* Animation for emphasis */
+        }
+
+        /* Keyframes for the pulsing effect */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        /* Footer styling */
+        footer {
+            color: #fff;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* Added shadow for visibility */
+            font-family: Arial, sans-serif; /* More linear, wider font */
+        }
+
+        /* Social icons with uniform styling */
+        .social-icons img {
+            width: 24px;
+            margin: 0 10px;
+            background-color: #f1f1f1;
+            border-radius: 50%;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="overlay"></div>
+
+    <div class="container my-5 content">
+        <div class="text-center caption-bg">
+            <h1>Premiere African Street Wear Store</h1>
+        </div>
+        <h2 class="text-center fw-bold welcome-message">Welcome to TrolleyPusha.Com</h2>
+        <p class="text-center fw-bold welcome-message">Enjoy your shopping always.</p>
+        <div class="row row-cols-1 row-cols-md-5 g-4">
+            <!-- Hoodies -->
+            <div class="col">
+                <div class="card h-100 product">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="https://i.imgur.com/khqyNI8-small.jpeg" />
+                        <source media="(min-width: 800px)" srcset="https://i.imgur.com/khqyNI8.jpeg" />
+                        <img src="https://i.imgur.com/khqyNI8.jpeg" class="card-img-top" alt="Hoodie (jozi)">
+                    </picture>
+                    <div class="card-body">
+                        <h5 class="card-title">Hoodie (jozi)</h5>
+                        <p class="price">Price: R550 ZAR</p>
+                        <a href="https://i.imgur.com/khqyNI8.jpeg" target="_blank" class="stretched-link"></a>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col">
+                <div class="card h-100 product">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="https://i.imgur.com/rSD01Ni-small.jpeg" />
+                        <source media="(min-width: 800px)" srcset="https://i.imgur.com/rSD01Ni.jpeg" />
+                        <img src="https://i.imgur.com/rSD01Ni.jpeg" class="card-img-top" alt="Hoodie (ibutho)">
+                    </picture>
+                    <div class="card-body">
+                        <h5 class="card-title">Hoodie (ibutho)</h5>
+                        <p class="price">Price: R550 ZAR</p>
+                        <a href="https://i.imgur.com/rSD01Ni.jpeg" target="_blank" class="stretched-link"></a>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Sweaters -->
+            <div class="col">
+                <div class="card h-100 product">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="https://i.imgur.com/RfURiGW-small.jpeg" />
+                        <source media="(min-width: 800px)" srcset="https://i.imgur.com/RfURiGW.jpeg" />
+                        <img src="https://i.imgur.com/RfURiGW.jpeg" class="card-img-top" alt="Sweater (ibutho)">
+                    </picture>
+                    <div class="card-body">
+                        <h5 class="card-title">Sweater (ibutho)</h5>
+                        <p class="price">Price: R480 ZAR</p>
+                        <a href="https://i.imgur.com/RfURiGW.jpeg" target="_blank" class="stretched-link"></a>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col">
+                <div class="card h-100 product">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="https://i.imgur.com/xKBToX9-small.jpeg" />
+                        <source media="(min-width: 800px)" srcset="https://i.imgur.com/xKBToX9.jpeg" />
+                        <img src="https://i.imgur.com/xKBToX9.jpeg" class="card-img-top" alt="Sweater (jozi)">
+                    </picture>
+                    <div class="card-body">
+                        <h5 class="card-title">Sweater (jozi)</h5>
+                        <p class="price">Price: R480 ZAR</p>
+                        <a href="https://i.imgur.com/xKBToX9.jpeg" target="_blank" class="stretched-link"></a>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+        
+
+                    <!-- T-shirts -->
+            <div class="col">
+                <div class="card h-100 product">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="https://i.imgur.com/sE45hb2.jpeg" />
+                        <source media="(min-width: 800px)" srcset="https://i.imgur.com/sE45hb2.jpeg" />
+                        <img src="https://i.imgur.com/sE45hb2.jpeg" class="card-img-top" alt="T-shirt (magearzar)">
+                    </picture>
+                    <div class="card-body">
+                        <h5 class="card-title">T-shirt (magearzar)</h5>
+                        <p class="price">Price: R320 ZAR</p>
+                        <a href="https://i.imgur.com/sE45hb2.jpeg" target="_blank" class="stretched-link"></a>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 product">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="https://i.imgur.com/Vhj2l3c.jpeg" />
+                        <source media="(min-width: 800px)" srcset="https://i.imgur.com/Vhj2l3c.jpeg" />
+                        <img src="https://i.imgur.com/Vhj2l3c.jpeg" class="card-img-top" alt="T-shirt (nigeria)">
+                    </picture>
+                    <div class="card-body">
+                        <h5 class="card-title">T-shirt (nigeria)</h5>
+                        <p class="price">Price: R320 ZAR</p>
+                        <a href="https://i.imgur.com/Vhj2l3c.jpeg" target="_blank" class="stretched-link"></a>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 product">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="https://i.imgur.com/ulo25WG.jpeg" />
+                        <source media="(min-width: 800px)" srcset="https://i.imgur.com/ulo25WG.jpeg" />
+                        <img src="https://i.imgur.com/ulo25WG.jpeg" class="card-img-top" alt="T-shirt (original logo)">
+                    </picture>
+                    <div class="card-body">
+                        <h5 class="card-title">T-shirt (original logo)</h5>
+                        <p class="price">Price: R320 ZAR</p>
+                        <a href="https://i.imgur.com/ulo25WG.jpeg" target="_blank" class="stretched-link"></a>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 product">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="https://i.imgur.com/8ScQnwQ.jpeg" />
+                        <source media="(min-width: 800px)" srcset="https://i.imgur.com/8ScQnwQ.jpeg" />
+                        <img src="https://i.imgur.com/8ScQnwQ.jpeg" class="card-img-top" alt="T-shirt (original logo)">
+                    </picture>
+                    <div class="card-body">
+                        <h5 class="card-title">T-shirt (original logo)</h5>
+                        <p class="price">Price: R320 ZAR</p>
+                        <a href="https://i.imgur.com/8ScQnwQ.jpeg" target="_blank" class="stretched-link"></a>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+        
+            <!-- Bomber Jackets -->
+            <div class="col">
+                <div class="card h-100 product">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="https://i.imgur.com/VHCrvmO-small.jpeg" />
+                        <source media="(min-width: 800px)" srcset="https://i.imgur.com/VHCrvmO.jpeg" />
+                        <img src="https://i.imgur.com/VHCrvmO.jpeg" class="card-img-top" alt="Bomber Jacket">
+                    </picture>
+                    <div class="card-body">
+                        <h5 class="card-title">Bomber Jacket</h5>
+                        <p class="price">Price: R600 ZAR</p>
+                        <a href="https://i.imgur.com/VHCrvmO.jpeg" target="_blank" class="stretched-link"></a>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col">
+                <div class="card h-100 product">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="https://i.imgur.com/RWkNVrU-small.jpeg" />
+                        <source media="(min-width: 800px)" srcset="https://i.imgur.com/RWkNVrU.jpeg" />
+                        <img src="https://i.imgur.com/RWkNVrU.jpeg" class="card-img-top" alt="Bomber Jacket">
+                    </picture>
+                    <div class="card-body">
+                        <h5 class="card-title">Bomber Jacket</h5>
+                        <p class="price">Price: R600 ZAR</p>
+                        <a href="https://i.imgur.com/RWkNVrU.jpeg" target="_blank" class="stretched-link"></a>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+                 
+
+            <div class="container my-5 content">
+                <p class="inspirational-quote">We are the link between all walks of life. The streets, the office, the home, and the vibes that connect them. After we all grind and win, we wanna look good, eat good, and have fun experiences... much of that begins with shopping and... No One shops what's never been on seen a Trolley, right? "Everybody is One" = We all Push Trolleys.</p>
+            </div>
+
+
+    <footer class="text-center mt-4 content">
+        <div class="footer-form">
+            <img src="https://i.imgur.com/9aCKGs7.png" alt="Company Logo">
+            <input type="text" class="form-control" placeholder="Your Name">
+            <input type="email" class="form-control" placeholder="Your Email">
+            <button type="submit" class="btn btn-primary mb-3">Subscribe</button>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/trolleypushawear"><img src="https://i.imgur.com/NhM5vXd.png" alt="Facebook"></a>
+            <a href="https://X.com/PushaTrolley"><img src="https://i.imgur.com/37LYH1v.jpg" alt="X"></a>
+            <a href="https://www.instagram.com/trolleypusha_ecommerce"><img src="https://i.imgur.com/NgdUhci.png" alt="Instagram"></a>
+        </div>
+        <p>© stqmedia_africa</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+        
