@@ -1,0 +1,8 @@
+# trolleypusha/urls.py
+from django.urls import path
+from .views import index  # Replace with actual view
+
+urlpatterns = [
+    path('', index, name='index'),
+    # Add more URL patterns here
+]
